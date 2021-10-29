@@ -7,9 +7,8 @@ import {Recipe} from '../recipe.model'
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
-  recipes : Recipe[] = [ new Recipe('Curry Recipes',`
-  curry recipes category consists of both indian curry recipes and a few world recipes as well. the indian curry collection includes curry or gravy recipes from all over india and stew recipes.
-  curry can be made with vegetables, legumes, lentils and this category shares all the famous and even some infamous vegetarian curry recipes. also includes popular vegetable curry recipes from both north indian and south indian cuisine.`,'https://www.vegrecipesofindia.com/wp-content/uploads/2013/11/instant-pot-chana-masala-recipe-3-280x280.jpg')]
+  recipes : Recipe[] = [
+  new Recipe('Curry Recipes',`curry recipes category consists of both indian curry recipes and a few world recipes as well.`,'https://cdn.pixabay.com/photo/2017/06/01/18/46/cook-2364221_960_720.jpg'),new Recipe('Curry Recipes',`curry recipes category consists of both indian curry recipes and a few world recipes as well.`,'https://cdn.pixabay.com/photo/2017/06/01/18/46/cook-2364221_960_720.jpg'),new Recipe('Curry Recipes',`curry recipes category consists of both indian curry recipes and a few world recipes as well.`,'https://cdn.pixabay.com/photo/2017/06/01/18/46/cook-2364221_960_720.jpg')]
   constructor() { }
 
   ngOnInit(): void {
