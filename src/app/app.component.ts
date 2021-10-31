@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'meal-shopping-angular-app';
+  loadedFeature ='recipe';
+
+  onReceivedFeature(feature:string){
+   console.log('feature',feature);
+   this.loadedFeature= feature;
+  }
 }
